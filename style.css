@@ -1,0 +1,471 @@
+/* importing
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,400;1,900&family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;1,100;1,400;1,600&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,400&display=swap');
+
+/*varibles*/
+
+:root{
+    --dark:orange;
+}
+
+/*the main html*/
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+header{
+    padding-top: 1.2%;
+    position: sticky;
+    top: 0%;
+    height: 17%;
+    width: 100%;
+    z-index: 5000;
+    background: white;
+    box-shadow: 5px 5px 60px -15px rgba(0,0,0,0.56);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo a{
+color: black;
+font-size: 1.5rem;
+font-weight: bolder;
+}
+.logo img{
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    color: black;
+    padding: 10px;
+    font-size: 1.2em;
+    transition: all 500ms ease-in-out;
+}
+nav ul li a:hover{
+    color: orange;
+}
+
+.icons{
+    font-size: 1.2em;
+    cursor: pointer;
+    
+}
+.icons i {
+    margin: 0 10px;
+}
+
+/*ShowCase*/
+
+.show-case{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    margin-top: 0.1%;
+    
+}
+.right img{
+    z-index: 5000;
+    object-fit: contain;
+    width: 100%;
+    height: 50%;
+}
+.left{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.left span{
+    color: orange;
+}
+.left p{
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px ;
+    outline: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+.btn:hover{
+    background: white;
+    color: black ;
+}
+
+/* features */
+
+.fetures{
+    
+    height: 50%;
+    margin-top: 10px;
+
+    
+}
+.fetures h1{
+  text-align: center;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.card-1{
+    text-align: center;
+    cursor: pointer;
+}
+.card-1 > .img-holder img:hover{
+    opacity: 0.54;
+    transition: all 500ms ease-in-out;
+} 
+
+ 
+/*watches*/
+
+.saacad{
+    width: 100%;
+    height: 50%;
+    margin-top: 1.5%;
+}
+.saacad h1{
+    text-align: center;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.items > .imges img{
+
+    object-fit: contain;
+    height: 300px;
+    text-align: center;
+}
+.items{
+    
+    text-align: center;
+}
+.items > .imges img:hover{
+    opacity: 0.54;
+    transition: all 500ms ease-in-out;
+} 
+
+
+/*payments*/
+
+.payments{
+    width: 100%;
+    height: 20%;
+    margin-top: 2.5%;
+   
+}
+.payments h1{
+    text-align: center;
+}
+.payments .imgoe {
+    text-align: center;
+}
+.imgoe img{
+   object-fit: contain;
+   height: 100px;
+  
+
+}
+
+/*products*/
+
+.dress{
+    width: 100%;
+    height: 50%;
+    margin-top: 1.2%;
+}
+.dress h1{
+    text-align: center;
+}
+.t{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imged{
+    object-fit: contain;
+    height: 300px;
+}
+/*Footer*/
+
+.footer{
+    width: 100%;
+    height: 70%;
+    margin-top: 1.2%;
+    
+    background: black;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.bidi {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    
+}
+
+.card-1 i.fas,.items i.fas{
+    color: goldenrod;
+}
+
+.midig a{
+
+    color: white;
+}
+.midig h4, .midig address{
+    padding: 4px 0;
+}
+.dhexda p{
+    padding: 4px 0;
+}
+.dhexda{
+    margin-left: 30rem;
+}
+
+/*contact page*/
+
+main{
+    height: 70vh;
+    max-height: 90vh;
+    max-width: 80vw;
+    width: 500px;
+    margin: 100px auto;
+    border: 2px solid black;
+    background: #f0ecec;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 30%;
+    
+}
+form h2{
+    margin-bottom: 10px;
+}
+
+input{
+    outline: none;
+    border: none; 
+    border-bottom: 1px solid black;
+    padding: 10px 10px;
+    border-radius: 5px ;
+    width: 250px;
+}
+textarea{
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 0%;
+    height: 20px;
+    width: 250px;
+    font-size: 1.2rem;
+}
+
+.btn1{
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+.btn1:hover{
+    background: white;
+    color: black;
+}
+
+/*Dashbord page*/
+
+.madaxa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    box-shadow: 5px 5px 15px -15px rgba(0,0,0,0.56);
+    padding: 1% 0;
+    cursor: pointer;
+}
+.dhinac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.side img{
+    object-fit: contain;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 13px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.side img:hover{
+    opacity: 0.56;
+}
+i.fa-sign-out-alt{
+    margin-left: 10px ;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+/*aside*/
+
+aside{
+    height: 100vh;
+    max-height: 90vh;
+    width: 60vw;
+    max-width: 250px;
+    border: 2px solid black;
+    background: rgb(21, 135, 228);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: start;
+    background: black;
+}
+aside i.far{
+    text-align: start;
+    
+}
+
+.mada{
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    width: 80%;
+    height: 20%;
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 50px ;
+
+   
+}
+
+.boxes{
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: whitesmoke;
+    border-radius: 15px;
+    
+}
+.col{
+    text-align: center;
+    padding-left: 2px;
+}
+.ico i{
+    font-size: 3rem;
+    padding-right: 4px ;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn2{
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background: black;
+}
+
+.oders{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    /* width: 50%;
+    height: 70%; */
+    /* flex: 1; */
+}
+table tr {
+    border: 2px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: lightgrey;
+    text-align: start;
+}
+table tr th{
+    padding: 10px 30px;text-align: end
+}
+table td{
+    margin-right: 40px;
+   
+}
+
+
+/*About*/
+
+
+.section{
+    width: 100%;
+    height: 50%;
+}
+.center img{
+    object-fit: contain;
+    width: 100%;
+   margin-top: 20px;
+    
+}
+.hey{
+    text-align: center;
+}
